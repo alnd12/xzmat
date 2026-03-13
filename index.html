@@ -1,50 +1,154 @@
 <!DOCTYPE html>
 <html lang="ku">
+
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>Kurd Service</title>
+
 <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
 
 <header>
-<h1>Kurd Service</h1>
-<p>پلاتفۆرمی دۆزینەوەی خزمەتگوزاری لە کوردستان</p>
+
+<nav class="navbar">
+
+<h2 class="logo">KurdService</h2>
+
+<ul class="menu">
+<li><a href="#">سەرەتا</a></li>
+<li><a href="#services">خزمەتگوزاری</a></li>
+<li><a href="#workers">وەستاکان</a></li>
+<li><a href="#contact">پەیوەندی</a></li>
+</ul>
+
+</nav>
+
+
+<div class="hero">
+
+<h1>باشترین خزمەتگوزاری لە کوردستان</h1>
+
+<p>وەستا بدۆزەوە بۆ کارەبا، ئاوکار، مۆبایل و زیاتر</p>
+
+<input type="text" placeholder="گەڕان بۆ خزمەتگوزاری..." id="search">
+
+<button onclick="searchService()">گەڕان</button>
+
+</div>
+
 </header>
 
-<section class="services">
 
-<div class="card">
-<h2>⚡ کارەباچی</h2>
-<p>دۆزینەوەی باشترین کارەباچی لە ناوچەکەت</p>
-<button>بینینی زانیاری</button>
-</div>
 
-<div class="card">
-<h2>🚰 ئاوکار</h2>
-<p>چارەسەرکردنی کێشەکانی ئاو</p>
-<button>بینینی زانیاری</button>
-</div>
+<section id="services">
 
-<div class="card">
-<h2>🧹 پاککردنەوەی ماڵ</h2>
-<p>خزمەتگوزاری پاککردنەوەی پرۆفیشنال</p>
-<button>بینینی زانیاری</button>
-</div>
+<h2>خزمەتگوزارییەکان</h2>
 
-<div class="card">
-<h2>📱 چاککردنی مۆبایل</h2>
-<p>چاککردنی هەموو جۆرە مۆبایل</p>
-<button>بینینی زانیاری</button>
+<div class="grid">
+
+<div class="card">⚡ کارەباچی</div>
+
+<div class="card">🚰 ئاوکار</div>
+
+<div class="card">📱 چاککردنی مۆبایل</div>
+
+<div class="card">🧹 پاککردنەوەی ماڵ</div>
+
+<div class="card">❄️ چاککردنی کولەر</div>
+
+<div class="card">🎨 رنگکردنی ماڵ</div>
+
 </div>
 
 </section>
 
+
+
+<section id="workers">
+
+<h2>باشترین وەستاکان</h2>
+
+<div class="grid">
+
+<div class="worker">
+
+<h3>وەستا احمد</h3>
+
+<p>کارەباچی</p>
+
+<p>📍 هەولێر</p>
+
+<p>⭐⭐⭐⭐⭐</p>
+
+<button>پەیوەندی</button>
+
+</div>
+
+
+<div class="worker">
+
+<h3>وەستا کاروان</h3>
+
+<p>ئاوکار</p>
+
+<p>📍 دهۆک</p>
+
+<p>⭐⭐⭐⭐</p>
+
+<button>پەیوەندی</button>
+
+</div>
+
+
+<div class="worker">
+
+<h3>وەستا محمد</h3>
+
+<p>چاککردنی مۆبایل</p>
+
+<p>📍 سلێمانی</p>
+
+<p>⭐⭐⭐⭐⭐</p>
+
+<button>پەیوەندی</button>
+
+</div>
+
+</div>
+
+</section>
+
+
+
+<section id="contact">
+
+<h2>پەیوەندی</h2>
+
+<input type="text" placeholder="ناو">
+
+<input type="email" placeholder="Email">
+
+<textarea placeholder="نامە"></textarea>
+
+<button>ناردن</button>
+
+</section>
+
+
+
 <footer>
-<p>© 2026 Kurd Service</p>
+
+<p>© 2026 KurdService</p>
+
 </footer>
+
+
+<script src="script.js"></script>
 
 </body>
 </html>
